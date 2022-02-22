@@ -6,6 +6,8 @@ export const Container = styled.header`
     align-items: center;
     font-weight: 700;
     width: 20vw;
+    height: 8vh;
+    background: green;
 `;
 
 export const Title = styled.div`

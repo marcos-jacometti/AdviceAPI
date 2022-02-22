@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components"; 
-import SpaceMonoBold from '../assets/fonts/SpaceMono-Bold.ttf';
+import SpaceMonoBold from '../fonts/SpaceMono-Bold.ttf';
 
 export const GlobalStyle = createGlobalStyle`
     @font-face {
@@ -21,5 +21,6 @@ export const GlobalStyle = createGlobalStyle`
         justify-content: center;
         font-family: 'Space Mono';
         background: ${(props) => props.theme.background};
+        width: 100vw;
     }
 `;

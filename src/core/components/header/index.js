@@ -9,7 +9,6 @@ export default function Header(){
             <Container>
                 <Title>advice</Title>
                 <ButtonMode onClick={() => setMode(!mode)}>
-                    {!mode ? '' : ''}
                     {!mode ? <BsMoonFill />: <BsSunFill />}
                 </ButtonMode>
             </Container>
