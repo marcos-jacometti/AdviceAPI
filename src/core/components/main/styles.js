@@ -7,7 +7,7 @@ export const Context = styled.main`
     flex-direction: column;
     height: 88vh;
 
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 600px){
         height: 94vh;
     }
 `;
@@ -29,7 +29,7 @@ export const Container = styled.div`
         color: ${(props) => props.theme.id};
     }
 
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 600px){
         width: 80vw;
     }
 `;
@@ -54,7 +54,7 @@ export const Button = styled.button`
         box-shadow: 0 0 1em black;
     }
 
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 600px){
         width: 10vw;
         height: 5vh;
         font-size: 6vw;

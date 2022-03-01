@@ -8,7 +8,7 @@ export const Container = styled.header`
     width: 100vw;
     height: 12vh;
 
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 600px){
         height: 6vh
     }
 `;
@@ -20,7 +20,7 @@ export const NavBar = styled.div`
     height: 100%;
     width: 20vw;
 
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 600px){
         width: 40vw;
     }
 `;
@@ -35,7 +35,7 @@ export const Title = styled.div`
         color: ${(props) => props.theme.txt};
     }
 
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 600px){
         font-size: 5vw;
     }
 `;
@@ -58,7 +58,7 @@ export const ButtonMode = styled.button`
         }
     }
 
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 600px){
         font-size: 3.5vw;
     }
 `;
