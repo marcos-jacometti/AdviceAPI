@@ -1,7 +1,7 @@
 # ADVICE
 
-![Screenshot 2022-03-01 11-06-25](https://user-images.githubusercontent.com/76071476/156199748-8e07d0af-a639-4c3b-862e-d024f2ccb691.png)
-![Screenshot 2022-03-01 11-06-07](https://user-images.githubusercontent.com/76071476/156199733-de8a5e55-3f48-4e62-b174-74002a3b0337.png)
+![Screenshot 2022-03-01 11-06-25](https://user-images.githubusercontent.com/76071476/156200314-72e8f25b-eed7-44eb-b3d8-e424d3c88b78.png)
+![Screenshot 2022-03-01 11-06-07](https://user-images.githubusercontent.com/76071476/156200293-b90a3013-156d-462e-a8b0-a737721183a4.png)
 
 ## About project:
 
