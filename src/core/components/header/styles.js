@@ -2,12 +2,27 @@ import styled from "styled-components";
 
 export const Container = styled.header`
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     font-weight: 700;
+    width: 100vw;
+    height: 12vh;
+
+    @media screen and (max-width: 400px){
+        height: 6vh
+    }
+`;
+
+export const NavBar = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
     width: 20vw;
-    height: 8vh;
-    background: green;
+
+    @media screen and (max-width: 400px){
+        width: 40vw;
+    }
 `;
 
 export const Title = styled.div`
@@ -18,6 +33,10 @@ export const Title = styled.div`
 
     :hover {
         color: ${(props) => props.theme.txt};
+    }
+
+    @media screen and (max-width: 400px){
+        font-size: 5vw;
     }
 `;
 
@@ -37,5 +56,9 @@ export const ButtonMode = styled.button`
         :hover{
             fill: ${(props) => props.theme.txt};
         }
+    }
+
+    @media screen and (max-width: 400px){
+        font-size: 3.5vw;
     }
 `;

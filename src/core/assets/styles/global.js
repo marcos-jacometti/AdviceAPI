@@ -19,8 +19,8 @@ export const GlobalStyle = createGlobalStyle`
     body {
         display: flex;
         justify-content: center;
+        align-items: center;
         font-family: 'Space Mono';
         background: ${(props) => props.theme.background};
-        width: 100vw;
     }
 `;
