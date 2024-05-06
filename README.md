@@ -5,7 +5,7 @@
 
 ## About project:
 
-Do you need a advice today? 
+Do you need an advice today? 
 If your awnser is yes, click on the link: https://advice-api-silk.vercel.app/
 
 ```
